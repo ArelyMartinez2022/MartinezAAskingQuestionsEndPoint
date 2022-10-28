@@ -18,7 +18,7 @@ public class NewController : ControllerBase
     [HttpGet]
     [Route("Asking/{name}/{time}")]
     //localHost9000/Input/Name
-    public string AskingQuestions(string name, int time)
+    public string AskingQuestions(string name, string time)
     {
         return$"Whats up {name}, you woke up at {time} !";
     }
